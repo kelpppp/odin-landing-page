@@ -17,7 +17,7 @@ a,
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 15px 100px;
+    padding: 15px 150px;
     background-color: #1f2937;
 }
 
@@ -38,7 +38,7 @@ a,
     display: flex;
     justify-content: center;
     gap: 20px;
-    padding: 100px;
+    padding: 100px 150px;
     background-color: #1f2937;
 }
 
@@ -116,4 +116,26 @@ a,
     width: 150px;
     text-align: center;
     font-size: 16px;
+}
+
+.section-three {
+    background-color: #e5e7eb;
+    display: flex;
+    flex-direction: column;
+    padding: 100px 230px;
+    gap: 5px;
+}
+
+.quote {
+    font-style: italic;
+    color: #1f2937;
+    font-weight: 100;
+    font-size: 30px;
+}
+
+.attribution {
+    display: flex;
+    justify-content: flex-end;
+    font-size: 18px;
+    font-weight: 800;
 }
