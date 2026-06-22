@@ -37,7 +37,7 @@ a,
 .section-one {
     display: flex;
     justify-content: center;
-    gap: 20px;
+    gap: 30px;
     padding: 100px 150px;
     background-color: #1f2937;
 }
@@ -72,6 +72,7 @@ a,
     flex: 1;
     justify-content: center;
     align-items: center;
+    padding: 10px;
 }
 
 .section-two {
@@ -79,9 +80,10 @@ a,
     background-color: white;
     flex-direction: column;
     justify-content: center;
-    gap: 25px;
+    gap: 30px;
     padding: 10px 100px;
-    margin: 30px 50px;
+    margin: 30px;
+    margin-bottom: 70px;
 }
 
 .title-two {
@@ -130,7 +132,7 @@ a,
     font-style: italic;
     color: #1f2937;
     font-weight: 100;
-    font-size: 30px;
+    font-size: 32px;
 }
 
 .attribution {
@@ -151,6 +153,7 @@ a,
     border-radius: 10px;
     padding: 35px 75px;
     justify-content: space-between;
+    gap: 20px;
 }
 
 .section-four .left-side {
@@ -167,4 +170,15 @@ a,
 
 .section-four .button {
     border: 2px solid white;
+}
+
+.footer {
+    background-color: #1f2937;
+    padding: 30px;
+}
+
+.copyright {
+    font-size: 15px;
+    color: #f9faf8;
+    text-align: center;
 }
