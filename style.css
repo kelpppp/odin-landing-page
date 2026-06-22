@@ -139,3 +139,32 @@ a,
     font-size: 18px;
     font-weight: 800;
 }
+
+.section-four {
+    background-color: white;
+    padding: 100px 150px;
+}
+
+.container {
+    background-color: #3882f6;
+    display: flex;
+    border-radius: 10px;
+    padding: 35px 75px;
+    justify-content: space-between;
+}
+
+.section-four .left-side {
+    font-size: 20px;
+    gap: 5px;
+    display: flex;
+    flex-direction: column;
+}
+
+.headline {
+    font-weight: 800;
+    color: white;
+}
+
+.section-four .button {
+    border: 2px solid white;
+}
